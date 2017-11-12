@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
   s.dependency 'GoogleMaps', '2.1.1'
+  s.compiler_flags = '-fno-modules'
 end
